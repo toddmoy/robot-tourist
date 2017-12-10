@@ -9,10 +9,6 @@ Robotically takes screenshots of the URLs you provide.
 | Install dependencies | `npm install` |
 | Run it               | `npm start`   |
 
-```
-npm go
-```
-
 ## Configuration
 
 Add a list of URLs and titles to `data.js`. Names may not have spaces.
