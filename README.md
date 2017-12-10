@@ -1,6 +1,6 @@
-# Robot Tourist
+# 🤖 Robot Tourist
 
-Automatically takes screenshots of the URLs you provide.
+Robotically takes screenshots of the URLs you provide.
 
 ## Usage
 
@@ -39,3 +39,4 @@ Sample:
 ## Dependencies
 
 * Puppeteer
+* Node 8.9+
