@@ -4,10 +4,10 @@ Automatically takes screenshots of the URLs you provide.
 
 ## Usage
 
-| Task                 | Command         |
-| -------------------- | --------------- |
-| Install dependencies | `npm install`   |
-| Run it               | `node index.js` |
+| Task                 | Command       |
+| -------------------- | ------------- |
+| Install dependencies | `npm install` |
+| Run it               | `npm start`   |
 
 ```
 npm go
