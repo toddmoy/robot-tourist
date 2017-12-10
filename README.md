@@ -5,7 +5,7 @@ Robotically takes screenshots of the URLs you provide.
 ## Usage
 
 | Task                 | Command       |
-| -------------------- | ------------- |
+| :------------------- | :------------ |
 | Install dependencies | `npm install` |
 | Run it               | `npm start`   |
 
