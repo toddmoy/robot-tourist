@@ -1,9 +1,3 @@
-/* 
- * usage: node index.js
- * 
- * add the list of stuff you want to shoot to data.js
- */
-
 const screens = require("./data");
 const pup = require("puppeteer");
 const imgDir = "screenshots/";
@@ -17,7 +11,7 @@ async function run() {
     height: 1000
   });
 
-  process.stdout.write("\n📸  Shooting:\n---------\n");
+  process.stdout.write("\nShooting:\n---------\n");
 
   for (let i = 0; i < screens.length; i++) {
     process.stdout.write("- " + screens[i].name + "...");
@@ -29,7 +23,7 @@ async function run() {
       fullPage: true
     });
 
-    process.stdout.write("done.\n");
+    process.stdout.write(" 📸\n");
   }
 
   browser.close();
