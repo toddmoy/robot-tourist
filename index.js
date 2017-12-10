@@ -3,9 +3,10 @@ const pup = require("puppeteer");
 const imgDir = "screenshots/";
 const ext = ".png";
 
-async function run() {
+async function shoot() {
   const browser = await pup.launch({ headless: false });
   const page = await browser.newPage();
+
   await page.setViewport({
     width: 1600,
     height: 1000
@@ -17,7 +18,6 @@ async function run() {
     process.stdout.write("- " + screens[i].name + "...");
 
     await page.goto(screens[i].url);
-
     await page.screenshot({
       path: imgDir + screens[i].name + ext,
       fullPage: true
@@ -25,8 +25,7 @@ async function run() {
 
     process.stdout.write(" 📸\n");
   }
-
   browser.close();
 }
 
-run();
+shoot();
