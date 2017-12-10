@@ -1,12 +1,12 @@
 {
-  "name": "puppeteer-test",
+  "name": "Robot Tourist",
   "version": "1.0.0",
-  "description": "",
+  "description": "Robotically takes screenshots of whatever URLs you give it.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Todd Moy",
   "license": "ISC",
   "dependencies": {
     "puppeteer": "^0.13.0"
